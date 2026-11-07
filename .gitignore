@@ -1,0 +1,27 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Secrets: never commit real values
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and scratch
+*.log
+tmp/
+*.local
